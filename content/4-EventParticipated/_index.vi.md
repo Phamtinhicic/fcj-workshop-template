@@ -34,11 +34,10 @@ Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là
 &emsp;**Vai trò trong sự kiện:** Người tham dự, thành viên cùng đội trả lời câu hỏi
 
 ### [Event 2](4.2-Event2/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
+&emsp;**Tên sự kiện:** FCAJ x Agentic AI Build Week: Show Up. Build. Pitch. WIN!
 
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
+&emsp;**Thời gian:** 09:00–12:00, ngày 25/07/2026
 
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, Thành phố Hồ Chí Minh
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự
-

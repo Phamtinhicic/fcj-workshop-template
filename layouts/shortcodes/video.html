@@ -1,0 +1,9 @@
+{{- $src := .Get "src" -}}
+{{- $caption := .Get "caption" -}}
+<figure class="event-video">
+  <video controls preload="metadata" style="width: 100%; max-width: 900px; display: block; margin: 1rem auto;">
+    <source src="{{ $src | relURL }}" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  {{- with $caption }}<figcaption style="text-align: center;">{{ . }}</figcaption>{{ end -}}
+</figure>

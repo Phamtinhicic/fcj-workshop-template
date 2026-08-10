@@ -34,11 +34,11 @@ During my internship, I participated in two events. Each one was a memorable exp
 
 ---
 
-### [Event 2](4.2-Event2/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
+### [Event 2](4.2-Event2/)
+&emsp;**Event Name:** FCAJ x Agentic AI Build Week: Show Up. Build. Pitch. WIN!
 
-&emsp;**Date & Time:** 09:00, August 13, 2025  
+&emsp;**Time:** 09:00–12:00, 25 July 2026
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+&emsp;**Location:** 26th Floor, Bitexco Tower, Ho Chi Minh City
 
-&emsp;**Role:** Attendee  
+&emsp;**Role:** Attendee
