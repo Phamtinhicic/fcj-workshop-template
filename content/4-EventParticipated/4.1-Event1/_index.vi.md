@@ -13,8 +13,8 @@ pre: " <b> 4.1. </b> "
 | Nội dung | Thông tin |
 | --- | --- |
 | **Tên sự kiện** | Cloud Architect Event |
-| **Ngày tham gia** | 20/06/2026 |
-| **Quy mô** | 8 đội tham gia |
+| **Thời gian** | 09:00–12:00, ngày 20/06/2026 |
+| **Địa điểm** | Tầng 26, tòa nhà Bitexco, Thành phố Hồ Chí Minh |
 | **Vai trò của em** | Thành viên tham dự và cùng đội trả lời câu hỏi |
 | **Chủ đề** | Kiến thức AWS Cloud Practitioner, Solutions Architect Associate và Solutions Architect Professional |
 
@@ -22,7 +22,25 @@ pre: " <b> 4.1. </b> "
 
 Em tham gia Cloud Architect Event với mục tiêu củng cố kiến thức AWS thông qua một hoạt động vừa học vừa chơi. Thay vì chỉ đọc tài liệu hoặc làm câu hỏi một mình, em có cơ hội trao đổi với các thành viên trong đội, lắng nghe cách suy luận của những đội khác và nhận giải đáp cho các nội dung chưa hiểu rõ.
 
-Sự kiện có tổng cộng **8 đội**. Mỗi đội cùng thảo luận và trả lời các câu hỏi liên quan đến kiến thức điện toán đám mây và kiến trúc giải pháp trên AWS. Nội dung được xây dựng theo nhiều mức độ, từ nền tảng của **AWS Certified Cloud Practitioner**, kiến thức thiết kế giải pháp của **AWS Certified Solutions Architect – Associate (SAA)** đến các tình huống có độ phức tạp cao hơn theo định hướng **AWS Certified Solutions Architect – Professional (SAP)**.
+Chương trình diễn ra từ **09:00 đến 12:00** tại tầng 26, tòa nhà Bitexco. Tám đội cùng thảo luận và trả lời các câu hỏi liên quan đến kiến thức điện toán đám mây và kiến trúc giải pháp trên AWS. Nội dung được xây dựng theo nhiều mức độ, từ nền tảng của **AWS Certified Cloud Practitioner**, kiến thức thiết kế giải pháp của **AWS Certified Solutions Architect – Associate (SAA)** đến các tình huống có độ phức tạp cao hơn theo định hướng **AWS Certified Solutions Architect – Professional (SAP)**.
+
+![Không khí tại Cloud Architect Event](/images/4-EventParticipated/cloud-architect-event/event-overview.jpg "Người tham dự tập trung theo dõi chương trình tại tầng 26, tòa nhà Bitexco")
+
+*Không khí tại Cloud Architect Event trước phần thi kiến thức theo đội.*
+
+## Nội dung nổi bật
+
+### Kiến thức Cloud Practitioner
+
+Các câu hỏi ở mức nền tảng tập trung vào khái niệm điện toán đám mây, mô hình trách nhiệm chia sẻ, đặc điểm của các nhóm dịch vụ AWS, nguyên tắc bảo mật và quản lý chi phí. Đây là phần giúp em kiểm tra lại nền tảng và nhận ra những nội dung tưởng đơn giản nhưng rất dễ nhầm khi các đáp án có cách diễn đạt gần giống nhau.
+
+### Tư duy kiến trúc SAA và SAP
+
+Các câu hỏi SAA và SAP yêu cầu người tham gia xem xét kiến trúc theo nhiều tiêu chí như tính sẵn sàng cao, khả năng mở rộng, độ bền dữ liệu, hiệu năng, bảo mật và chi phí. Một số câu không thể giải quyết bằng cách nhớ tên dịch vụ mà cần đọc kỹ yêu cầu, xác định ràng buộc và chọn phương án phù hợp nhất.
+
+![Câu hỏi kiến trúc AWS được trình chiếu](/images/4-EventParticipated/cloud-architect-event/aws-question.jpg "Một câu hỏi về Elastic Load Balancer trong phần thi kiến thức")
+
+*Câu hỏi kiến trúc AWS được trình chiếu để các đội cùng phân tích và lựa chọn đáp án.*
 
 ## Hoạt động chính
 
@@ -32,6 +50,10 @@ Sự kiện có tổng cộng **8 đội**. Mỗi đội cùng thảo luận và
 - Tiếp cận các câu hỏi kiến trúc yêu cầu cân nhắc nhiều tiêu chí thay vì chỉ ghi nhớ tên dịch vụ.
 - Lắng nghe phần giải thích đáp án để hiểu vì sao một lựa chọn phù hợp hơn những lựa chọn còn lại.
 - Trao đổi với thành viên trong đội về cách đọc từ khóa, loại trừ đáp án và quản lý thời gian khi gặp câu hỏi dài.
+
+![Các thành viên phối hợp trả lời](/images/4-EventParticipated/cloud-architect-event/team-discussion.jpg "Các thành viên trao đổi và thống nhất đáp án")
+
+*Các thành viên cùng trao đổi, đối chiếu kiến thức và thống nhất đáp án trong thời gian quy định.*
 
 ## Kiến thức và kỹ năng đạt được
 
@@ -47,6 +69,14 @@ Em học được cách xác định yêu cầu chính trong đề, nhận diệ
 
 Do mỗi câu hỏi có thời gian giới hạn, đội cần phân chia việc đọc, đề xuất đáp án và phản biện ngắn gọn. Hoạt động này giúp em rèn luyện khả năng lắng nghe, trình bày ý kiến rõ ràng, tôn trọng quan điểm khác biệt và cùng chịu trách nhiệm với đáp án cuối cùng.
 
+## Ứng dụng sau sự kiện
+
+- Tiếp tục ôn lại các miền kiến thức Cloud Practitioner còn chưa chắc chắn.
+- Luyện cách đọc yêu cầu kiến trúc và xác định từ khóa trước khi xem đáp án.
+- Áp dụng các tiêu chí bảo mật, độ sẵn sàng và chi phí khi thiết kế CampusMeet trên AWS.
+- Ghi lại những câu trả lời sai để tìm hiểu nguyên nhân thay vì chỉ ghi nhớ đáp án đúng.
+- Duy trì hình thức thảo luận nhóm khi gặp bài toán có nhiều phương án kỹ thuật.
+
 ## Kết quả và cảm nhận
 
 Đội của em **không đạt giải** trong sự kiện. Tuy nhiên, em và các thành viên không cảm thấy thất vọng hay đặt nặng kết quả. Cả đội vẫn vui vẻ tham gia đến cuối, cùng xem lại những câu trả lời chưa chính xác và ghi nhận các kiến thức cần bổ sung.
@@ -55,9 +85,13 @@ Do mỗi câu hỏi có thời gian giới hạn, đội cần phân chia việc
 
 Sự kiện giúp em có thêm động lực tiếp tục học AWS, ôn lại kiến thức Cloud Practitioner và làm quen dần với tư duy kiến trúc ở cấp độ SAA, SAP. Đây cũng là một trải nghiệm tích cực về tinh thần đồng đội: dù không có giải thưởng, cả đội vẫn giữ thái độ vui vẻ, tôn trọng nhau và xem quá trình học hỏi là kết quả đáng giá nhất.
 
+![Tinh thần giao lưu sau hoạt động](/images/4-EventParticipated/cloud-architect-event/team-spirit.jpg "Các đội giao lưu vui vẻ sau phần trả lời câu hỏi")
+
+*Tinh thần giao lưu vui vẻ giữa những người tham gia sau các phần trả lời câu hỏi.*
+
 ## Bằng chứng tham gia
 
-Ảnh tham gia, thư mời hoặc bài đăng của ban tổ chức sẽ được bổ sung tại đây sau khi đường dẫn chia sẻ được thiết lập quyền xem công khai.
+Các ảnh trong bài là minh chứng trực tiếp cho quá trình em tham gia Cloud Architect Event tại tầng 26, tòa nhà Bitexco vào ngày 20/06/2026.
 
 {{% notice note %}}
 Khi bổ sung bằng chứng, chỉ sử dụng ảnh hoặc đường dẫn được phép chia sẻ và không công khai thông tin cá nhân, mã truy cập hay dữ liệu nội bộ của đơn vị tổ chức.

@@ -27,9 +27,9 @@ Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là
 ### [Event 1](4.1-Event1/)
 &emsp;**Tên sự kiện:** Cloud Architect Event
 
-&emsp;**Thời gian:** Ngày 20/06/2026
+&emsp;**Thời gian:** 09:00–12:00, ngày 20/06/2026
 
-&emsp;**Quy mô:** 8 đội tham gia
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, Thành phố Hồ Chí Minh
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự, thành viên cùng đội trả lời câu hỏi
 

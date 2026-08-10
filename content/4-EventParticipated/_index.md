@@ -26,9 +26,9 @@ During my internship, I participated in two events. Each one was a memorable exp
 ### [Event 1](4.1-Event1/)
 &emsp;**Event Name:** Cloud Architect Event
 
-&emsp;**Date:** 20 June 2026
+&emsp;**Time:** 09:00–12:00, 20 June 2026
 
-&emsp;**Scale:** Eight participating teams
+&emsp;**Location:** 26th Floor, Bitexco Tower, Ho Chi Minh City
 
 &emsp;**Role:** Participant and team member answering the questions
 
