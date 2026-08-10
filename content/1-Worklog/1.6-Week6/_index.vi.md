@@ -1,58 +1,36 @@
 ---
 title: "Worklog Tuần 6"
-date: 2024-01-01
-weight: 1
+date: 2026-07-13
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+## WORKLOG TUẦN 6
 
 ### Mục tiêu tuần 6:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Tổng hợp kiến thức và trải nghiệm từ các nội dung AWS đã tìm hiểu trong những tuần trước.
+- Khảo sát các vấn đề thực tế có thể giải quyết bằng điện toán đám mây và tìm kiếm ý tưởng phù hợp cho dự án.
+- Đánh giá sơ bộ tính khả thi, phạm vi và chi phí của các ý tưởng tiềm năng.
+- Chọn hướng nghiên cứu phù hợp để tiếp tục làm rõ trong những tuần sau.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | **Tổng hợp kiến thức và khảo sát vấn đề:**<br>- Ôn lại IAM, VPC, EC2, S3, RDS, Auto Scaling, CloudWatch và Route 53.<br>- Ghi chú vai trò của từng dịch vụ trong một kiến trúc ứng dụng.<br>- Tìm kiếm các khó khăn trong học tập, cộng tác nhóm và quản lý công việc có thể cải thiện bằng ứng dụng đám mây.<br>- Lập danh sách ban đầu về vấn đề và nhóm người dùng mục tiêu. | 13/07/2026 | 13/07/2026 | [AWS Architecture Center](https://aws.amazon.com/architecture/)<br>[AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/vi/) |
+| 3 | **Nghỉ:** Không thực hiện công việc chuyên môn. | 14/07/2026 | 14/07/2026 | — |
+| 4 | **Tìm kiếm và phát triển ý tưởng:**<br>- Tham khảo các dự án cloud, serverless và ứng dụng hỗ trợ cộng tác.<br>- Brainstorm các hướng như quản lý cuộc họp, tài liệu, công việc, nhắc lịch và tổng hợp nội dung bằng AI.<br>- Xác định người dùng mục tiêu, vấn đề cần giải quyết và giá trị dự kiến của mỗi ý tưởng.<br>- Phác thảo luồng sử dụng cơ bản, chưa đi sâu vào code.<br>- Loại bỏ các ý tưởng quá rộng hoặc vượt quá thời gian thực tập. | 15/07/2026 | 15/07/2026 | [AWS Solutions Library](https://aws.amazon.com/solutions/)<br>[AWS Serverless](https://aws.amazon.com/serverless/) |
+| 5 | **Nghỉ:** Không có hoạt động thực tập hoặc nghiên cứu đáng kể. | 16/07/2026 | 16/07/2026 | — |
+| 6 | **So sánh và chọn hướng nghiên cứu:**<br>- Gom nhóm các ý tưởng tương đồng và chọn các phương án có giá trị thực tế rõ ràng.<br>- So sánh theo mức độ cần thiết, khả năng hoàn thành, chi phí AWS, bảo mật và khả năng mở rộng.<br>- Xác định sơ bộ các dịch vụ AWS có thể sử dụng nhưng chưa tạo tài nguyên.<br>- Ghi lại các nội dung cần trao đổi thêm với người hướng dẫn hoặc thành viên nhóm.<br>- Ưu tiên hướng hỗ trợ cộng tác và quản lý nội dung cuộc họp. | 17/07/2026 | 17/07/2026 | [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)<br>[AWS Pricing Calculator](https://calculator.aws/) |
+| 7 | **Nghỉ.** | 18/07/2026 | 18/07/2026 | — |
 
 ### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Hệ thống lại vai trò của các dịch vụ AWS đã học và mối liên hệ giữa chúng trong kiến trúc ứng dụng.
+- Xác định một số nhóm vấn đề thực tế phù hợp để nghiên cứu bằng giải pháp điện toán đám mây.
+- Xây dựng danh sách ý tưởng ban đầu về cộng tác nhóm, quản lý cuộc họp, tài liệu, công việc và nhắc lịch.
+- Đánh giá sơ bộ các ý tưởng theo giá trị sử dụng, phạm vi, chi phí, bảo mật và khả năng hoàn thành.
+- Loại bỏ các hướng quá rộng và chọn hướng ưu tiên để tiếp tục phân tích trong tuần sau.
+- Duy trì khối lượng nghiên cứu vừa phải và bố trí ngày nghỉ phù hợp với hoạt động thực tế.

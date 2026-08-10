@@ -1,57 +1,47 @@
 ---
-title: "Week 6 Worklog"
-date: 2024-01-01
-weight: 1
+title: "Worklog Tuần 6"
+date: 2026-07-13
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+## WORKLOG TUẦN 6
 
-### Week 6 Objectives:
+### Mục tiêu
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Tổng hợp lại kiến thức và trải nghiệm từ các nội dung AWS đã tìm hiểu trong những tuần trước.
+- Khảo sát các vấn đề thực tế có thể giải quyết bằng điện toán đám mây và tìm kiếm ý tưởng phù hợp cho dự án cá nhân hoặc dự án nhóm.
+- Tìm hiểu một số mô hình ứng dụng phổ biến trên AWS, đánh giá sơ bộ tính khả thi, phạm vi và chi phí của từng hướng.
+- Chọn một số ý tưởng tiềm năng để tiếp tục nghiên cứu ở các tuần sau, chưa vội triển khai khi yêu cầu chưa rõ ràng.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Công việc thực hiện
 
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| Thứ Hai (Tại nhà) | **Tổng hợp kiến thức và khảo sát vấn đề:**<br>- Ôn lại các dịch vụ đã tìm hiểu: IAM, VPC, EC2, S3, RDS, Auto Scaling, CloudWatch và Route 53.<br>- Ghi chú vai trò của từng dịch vụ trong một kiến trúc ứng dụng hoàn chỉnh.<br>- Tìm kiếm những khó khăn thường gặp trong học tập, làm việc nhóm và quản lý công việc có thể cải thiện bằng ứng dụng đám mây.<br>- Lập danh sách ban đầu gồm các vấn đề và nhóm người dùng có thể hướng tới.<br>- Chưa lựa chọn giải pháp kỹ thuật ở bước này để tránh giới hạn ý tưởng quá sớm. | 13/07/2026 | 13/07/2026 | [AWS Architecture Center](https://aws.amazon.com/architecture/)<br>[AWS Cloud Journey](https://cloudjourney.awsstudygroup.com/vi/) |
+| Thứ Ba | Nghỉ; dành thời gian cá nhân và không thực hiện công việc chuyên môn. | 14/07/2026 | 14/07/2026 | — |
+| Thứ Tư (Tại nhà) | **Tìm kiếm và phát triển ý tưởng:**<br>- Tham khảo các dự án cloud, serverless và ứng dụng hỗ trợ cộng tác đã được triển khai.<br>- Sử dụng kỹ thuật brainstorming để đề xuất nhiều hướng: quản lý cuộc họp, quản lý tài liệu, theo dõi công việc, nhắc lịch và tổng hợp nội dung bằng AI.<br>- Với mỗi ý tưởng, xác định ngắn gọn người dùng mục tiêu, vấn đề cần giải quyết và giá trị dự kiến.<br>- Phác thảo luồng sử dụng cơ bản thay vì đi sâu vào giao diện hoặc code.<br>- Loại bỏ các ý tưởng quá rộng, phụ thuộc dữ liệu khó tiếp cận hoặc vượt quá thời gian thực tập. | 15/07/2026 | 15/07/2026 | [AWS Solutions Library](https://aws.amazon.com/solutions/)<br>[AWS Serverless](https://aws.amazon.com/serverless/) |
+| Thứ Năm | Nghỉ; không có hoạt động thực tập hoặc nghiên cứu đáng kể. | 16/07/2026 | 16/07/2026 | — |
+| Thứ Sáu (Tại nhà) | **So sánh và chọn hướng nghiên cứu tiếp theo:**<br>- Gom nhóm các ý tưởng tương đồng và chọn một số phương án có giá trị thực tế rõ ràng.<br>- So sánh sơ bộ theo các tiêu chí: mức độ cần thiết, khả năng hoàn thành, chi phí AWS, yêu cầu bảo mật và khả năng mở rộng.<br>- Xác định những dịch vụ AWS có thể sử dụng cho từng phương án, nhưng chưa tạo tài nguyên để tránh phát sinh chi phí.<br>- Ghi lại các câu hỏi cần xác minh thêm với người hướng dẫn hoặc thành viên nhóm.<br>- Chọn hướng ưu tiên liên quan đến hỗ trợ cộng tác và quản lý nội dung cuộc họp để tiếp tục làm rõ yêu cầu trong tuần sau. | 17/07/2026 | 17/07/2026 | [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)<br>[AWS Pricing Calculator](https://calculator.aws/) |
+| Thứ Bảy | Nghỉ. | 18/07/2026 | 18/07/2026 | — |
 
-### Week 6 Achievements:
+### Thành tích đạt được tuần 6
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+**Tổng hợp và định hướng:**
 
-* Successfully created and configured an AWS Free Tier account.
+- Hệ thống lại vai trò của các dịch vụ AWS đã học và mối liên hệ giữa chúng trong một kiến trúc ứng dụng.
+- Xác định được một số nhóm vấn đề thực tế phù hợp để nghiên cứu bằng giải pháp điện toán đám mây.
+- Biết tách bước tìm hiểu vấn đề khỏi bước lựa chọn công nghệ để tránh xây dựng giải pháp khi yêu cầu chưa rõ.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+**Tìm kiếm và đánh giá ý tưởng:**
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Xây dựng danh sách ý tưởng ban đầu xoay quanh cộng tác nhóm, quản lý cuộc họp, tài liệu, công việc và nhắc lịch.
+- Đánh giá sơ bộ ý tưởng theo giá trị sử dụng, phạm vi, chi phí, bảo mật và khả năng hoàn thành.
+- Loại bỏ các hướng quá rộng hoặc không phù hợp với nguồn lực hiện tại.
+- Chọn được hướng ưu tiên để tiếp tục phân tích yêu cầu, kiến trúc và kế hoạch triển khai trong tuần tiếp theo.
 
-* Used AWS CLI to perform basic operations such as:
+**Quản lý thời gian:**
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Duy trì khối lượng nghiên cứu vừa phải trong tuần chủ yếu dành cho tìm kiếm ý tưởng.
+- Bố trí ngày nghỉ hợp lý, không ghi nhận hoạt động kỹ thuật khi thực tế không có công việc đáng kể.

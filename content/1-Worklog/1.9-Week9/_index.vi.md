@@ -1,59 +1,43 @@
----
+﻿---
 title: "Worklog Tuần 9"
-date: 2024-01-01
-weight: 1
+date: 2026-08-03
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+## WORKLOG TUẦN 9
 
-### Mục tiêu tuần 9:
+### Mục tiêu
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Chốt thiết kế đủ chi tiết để nhóm bắt đầu hiện thực CampusMeet mà không phải tự suy đoán yêu cầu.
+- Thiết lập cấu trúc repository, quy ước code và cách tích hợp các phần việc.
+- Chuẩn bị nền tảng cho quản lý nội dung người dùng, cuộc họp và luồng xử lý bất đồng bộ.
+- Kiểm tra thiết kế bằng các luồng thử nhỏ trước khi mở rộng chức năng.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Công việc thực hiện
 
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| Thứ Hai (Văn phòng) | **Kick-off giai đoạn hiện thực:**<br>- Cả nhóm trình bày phần thiết kế đã chuẩn bị và kiểm tra lại phạm vi.<br>- Chốt cấu trúc monorepo cho web, API, shared package, infrastructure và documentation.<br>- Thống nhất quy tắc đặt tên nhánh, commit, pull request và người review.<br>- Xác nhận phụ thuộc: data foundation và auth cần ổn định trước các luồng nghiệp vụ.<br>- Chia đầu việc theo milestone, đồng thời xác định tiêu chí bàn giao thay vì chỉ ghi tên chức năng. | 03/08/2026 | 03/08/2026 | [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow)<br>[AWS SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) |
+| Thứ Ba (Tại nhà) | **Chuẩn hóa thiết kế phần cuộc họp và nội dung:**<br>- Hoàn thiện kiểu dữ liệu Meeting, File, Invitation, Task và AIJob.<br>- Xác định quy tắc kiểm tra quyền theo người dùng và nhóm.<br>- Thiết kế luồng upload bằng presigned URL, checksum và metadata.<br>- Mô tả cách một file sau khi tải lên tạo công việc xử lý bất đồng bộ.<br>- Viết các trường hợp lỗi và hành vi khi người dùng gửi lại cùng một yêu cầu. | 04/08/2026 | 04/08/2026 | [S3 Presigned URLs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-presigned-url.html)<br>[Amazon S3 Checksums](https://docs.aws.amazon.com/AmazonS3/latest/userguide/checking-object-integrity.html) |
+| Thứ Tư (Tại nhà) | **Thiết kế tích hợp Google Calendar/Meet và thông báo:**<br>- Rà soát OAuth, redirect URI, scope và cách bảo vệ client secret.<br>- Mô tả luồng kết nối tài khoản Google, tạo sự kiện và lưu liên kết Meet.<br>- Xác định vị trí sử dụng SES cho email nhắc lịch/lời mời và giới hạn của môi trường sandbox.<br>- Bổ sung các biến cấu hình cần thiết cho môi trường dev. | 05/08/2026 | 05/08/2026 | [Google OAuth 2.0](https://developers.google.com/identity/protocols/oauth2)<br>[Amazon SES](https://docs.aws.amazon.com/ses/latest/dg/Welcome.html) |
+| Thứ Năm (Tại nhà) | **Thiết kế orchestration và khả năng phục hồi:**<br>- Xác định trạng thái vòng đời AIJob và state machine xử lý.<br>- Bổ sung nguyên tắc idempotency để không tạo hai logical job khi retry.<br>- Thiết kế cách phục hồi khi StartExecution không trả về kết quả rõ ràng hoặc orchestration khởi động thất bại.<br>- Ghi lại yêu cầu về log, request ID và trạng thái có thể truy vết khi xảy ra lỗi. | 06/08/2026 | 06/08/2026 | [Step Functions Error Handling](https://docs.aws.amazon.com/step-functions/latest/dg/concepts-error-handling.html)<br>[AWS Lambda Powertools](https://docs.powertools.aws.dev/lambda/typescript/latest/) |
+| Thứ Sáu (Tại nhà) | **Review chéo và xử lý xung đột thiết kế:**<br>- Review các pull request liên quan shared types, API contract và infrastructure template.<br>- Đối chiếu tài nguyên được tạo bởi từng stack để tránh trùng tên hoặc thiếu output.<br>- Chia các thay đổi lớn thành commit nhỏ, xử lý conflict dựa trên hợp đồng đã thống nhất thay vì chọn toàn bộ một phía.<br>- Chạy kiểm tra type, test và validate hạ tầng sau khi hợp nhất. | 07/08/2026 | 07/08/2026 | [CloudFormation Best Practices](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html)<br>[Pull request CampusMeet](https://github.com/Ngct253/CampusMeet/pulls) |
+| Thứ Bảy (Tại nhà) | **Kiểm tra tiến độ và hoàn thiện tài liệu bàn giao:**<br>- Thực hiện smoke test các luồng đã sẵn sàng và ghi lại kết quả.<br>- Phân loại lỗi thành lỗi cấu hình, lỗi tích hợp và lỗi nghiệp vụ để giao đúng người xử lý.<br>- Cập nhật sơ đồ kiến trúc, hướng dẫn cấu hình môi trường và danh sách việc còn lại.<br>- Báo cáo nhóm phần đã hoàn thành, phần đang chờ phụ thuộc và kế hoạch tuần tiếp theo. | 08/08/2026 | 08/08/2026 | [AWS CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html)<br>[Hướng dẫn triển khai và kiểm thử M4](https://github.com/Ngct253/CampusMeet/blob/main/docs/m4-cloud-setup.md) |
 
-### Kết quả đạt được tuần 9:
+### Thành tích đạt được tuần 9
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Chốt cấu trúc repository, quy trình nhánh/commit/pull request và trách nhiệm review.
+- Hoàn thiện thiết kế chi tiết cho cuộc họp, nội dung người dùng, Google integration và AIJob orchestration.
+- Xác định rõ các yêu cầu bảo mật, idempotency, kiểm tra tính toàn vẹn và khả năng phục hồi.
+- Chuẩn hóa cách các stack hạ tầng trao đổi output/parameter và cách các module dùng shared types.
+- Hoàn thành review thiết kế, validate cơ bản và tài liệu bàn giao để nhóm tiếp tục hiện thực.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+### Khó khăn và cách giải quyết:
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+- **Khó khăn:** Nhiều thành viên cùng sửa shared types và infrastructure nên phát sinh conflict.<br>**Cách xử lý:** Đồng bộ nhánh thường xuyên, giới hạn phạm vi mỗi pull request, giải quyết conflict dựa trên API contract và chạy lại toàn bộ kiểm tra sau merge.
+- **Khó khăn:** Các dịch vụ Google và AWS yêu cầu nhiều cấu hình ngoài mã nguồn, dễ sai redirect URI, CORS hoặc quyền IAM.<br>**Cách xử lý:** Lập checklist cấu hình theo môi trường, dùng Secrets Manager cho bí mật, ghi rõ output cần lấy và xác minh từng tích hợp bằng smoke test nhỏ.
+- **Khó khăn:** Khó phân biệt chức năng đã hoàn thành local với chức năng đã sẵn sàng trên cloud.<br>**Cách xử lý:** Báo cáo riêng ba trạng thái: hoàn thành code, đã merge và đã deploy/kiểm thử; không đánh dấu hoàn thành chỉ dựa trên việc code chạy local.
 
 

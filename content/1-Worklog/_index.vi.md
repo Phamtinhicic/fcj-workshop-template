@@ -10,31 +10,28 @@ pre: " <b> 1. </b> "
 ⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
 
-**Trong trang này** bạn sẽ cần giới thiệu worklog của bạn **như thế nào**? Bạn hoàn thành chương trình trong vòng **bao nhiêu tuần**? Bạn **đã làm gì** trong các tuần đó?
+## Nhật ký Thực tập
 
+Suốt 12 tuần thực tập trong chương trình **First Cloud AI Journey (FCAJ)** (12/6 - 31/8/2026), tôi đã ghi lại hành trình học tập, phát triển kỹ năng và tiến độ xây dựng một dự án workshop AWS thực tế. Nhật ký này ghi lại sự cân bằng giữa học tập hướng dẫn tại văn phòng và tự học độc lập tại nhà.
 
-Thông thường và cũng là tiêu chuẩn, một worklog được thực hiện trong khoảng 3 tháng (trong suốt thời gian thực tập) với nội dung các tuần như sau:
+### Phân chia theo tuần:
 
-**Tuần 1:** [Làm quen với AWS và các dịch vụ cơ bản trong AWS](1.1-week1/)
+**Tuần 1-3: Nền tảng & Hội nhập**
+- **[Tuần 1 (12-18/6)](1.1-week1/):** Hội nhập team, cấu hình tài khoản AWS, tổng quan dịch vụ cơ bản
+- **[Tuần 2 (19-25/6)](1.2-week2/):** Tìm hiểu sâu Compute services (EC2, Lambda, ECS)
+- **[Tuần 3 (26/6-2/7)](1.3-week3/):** Khám phá Storage và Database services (S3, RDS, DynamoDB)
 
-**Tuần 2:** [Làm công việc A...](1.2-week2/)
+**Tuần 4-6: Phát triển kỹ năng nâng cao**
+- **[Tuần 4 (3-9/7)](1.4-week4/):** Networking fundamentals - VPC, Route 53, CloudFront
+- **[Tuần 5 (10-16/7)](1.5-week5/):** Security & IAM - Quản lý quyền truy cập nâng cao
+- **[Tuần 6 (17-23/7)](1.6-week6/):** Monitoring & Analytics - CloudWatch, CloudTrail
 
-**Tuần 3:** [Làm công việc B...](1.3-week3/)
+**Tuần 7-9: Phát triển dự án Workshop**
+- **[Tuần 7 (24-30/7)](1.7-week7/):** Thiết kế kiến trúc workshop và kế hoạch nội dung
+- **[Tuần 8 (31/7-6/8)](1.8-week8/):** Phát triển và kiểm thử tài liệu workshop
+- **[Tuần 9 (7-13/8)](1.9-week9/):** Tối ưu hóa và hoàn thiện các tài liệu dự án
 
-**Tuần 4:** [Làm công việc C...](1.4-week4/)
-
-**Tuần 5:** [Làm công việc D...](1.5-week5/)
-
-**Tuần 6:** [Làm công việc E...](1.6-week6/)
-
-**Tuần 7:** [Làm công việc G...](1.7-week7/)
-
-**Tuần 8:** [Làm công việc H...](1.8-week8/)
-
-**Tuần 9:** [Làm công việc I...](1.9-week9/)
-
-**Tuần 10:** [Làm công việc L...](1.10-week10/)
-
-**Tuần 11:** [Làm công việc M...](1.11-week11/)
-
-**Tuần 12:** [Làm công việc N...](1.12-week12/)
+**Tuần 10-12: Tài liệu hóa & Chia sẻ kiến thức**
+- **[Tuần 10 (14-20/8)](1.10-week10/):** Viết blog kỹ thuật và tài liệu hóa kiến thức
+- **[Tuần 11 (21-27/8)](1.11-week11/):** Chuẩn bị hướng dẫn workshop toàn diện và tài liệu
+- **[Tuần 12 (28-31/8)](1.12-week12/):** Xem xét cuối cùng, tổng kết và kế hoạch phát triển tiếp theo
