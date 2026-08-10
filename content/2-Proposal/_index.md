@@ -74,7 +74,7 @@ This project has two parts—setting up weather edge stations and building the w
 
 ### 6. Budget Estimation
 You can find the budget estimation on the [AWS Pricing Calculator](https://calculator.aws/#/estimate?id=621f38b12a1ef026842ba2ddfe46ff936ed4ab01).  
-Or you can download the [Budget Estimation File](../attachments/budget_estimation.pdf).
+The detailed cost estimate is included in the section above.
 
 ### Infrastructure Costs
 - AWS Services:

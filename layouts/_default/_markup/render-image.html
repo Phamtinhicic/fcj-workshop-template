@@ -1,0 +1,8 @@
+{{- $destination := .Destination -}}
+{{- if strings.HasPrefix $destination "/" -}}
+  {{- $destination = strings.TrimPrefix "/" $destination -}}
+{{- end -}}
+{{- if strings.HasPrefix $destination "static/" -}}
+  {{- $destination = strings.TrimPrefix "static/" $destination -}}
+{{- end -}}
+<img src="{{ $destination | relURL | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">

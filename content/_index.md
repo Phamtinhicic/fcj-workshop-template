@@ -16,6 +16,7 @@ chapter: false
 &emsp; **Full Name:** Pham Van Tinh
 
 &emsp; **Phone Number:** 0919674523
+
 &emsp; **Email:** phamtinhicic@gmail.com
 
 &emsp; **University:** Sai Gon University
@@ -31,7 +32,7 @@ chapter: false
 &emsp; **Internship Duration:** From 12/06/2026 to 15/08/2026
 
 
-![Your profile picture](/images/avatar1.png)
+![Your profile picture](/images/avatar.png)
 
 ### Report Content
 

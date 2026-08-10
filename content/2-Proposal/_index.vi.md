@@ -73,7 +73,7 @@ Dự án gồm 2 phần — thiết lập trạm thời tiết biên và xây d�
 
 ### 6. Ước tính ngân sách  
 Có thể xem chi phí trên [AWS Pricing Calculator](https://calculator.aws/#/estimate?id=621f38b12a1ef026842ba2ddfe46ff936ed4ab01)  
-Hoặc tải [tệp ước tính ngân sách](../attachments/budget_estimation.pdf).  
+Chi tiết ước tính chi phí được trình bày trong phần trên.
 
 *Chi phí hạ tầng*  
 - AWS Lambda: 0,00 USD/tháng (1.000 request, 512 MB lưu trữ).  

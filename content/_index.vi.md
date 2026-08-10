@@ -28,7 +28,7 @@ chapter: false
 
 
 
-![Ảnh đại diện của bạn](/images/avatar1.png)
+![Ảnh đại diện của bạn](/images/avatar.png)
 
 ### Nội dung báo cáo
 
