@@ -6,10 +6,6 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
 ## Internship Worklog Overview
 
 Throughout my 12-week internship in the **First Cloud AI Journey (FCAJ)** program (June 12 - August 31, 2026), I have documented my learning journey, skill development, and progress in building a practical AWS workshop project. This worklog captures the balance between guided office learning and independent home study.

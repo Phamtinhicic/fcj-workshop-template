@@ -6,10 +6,6 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 ## Nhật ký Thực tập
 
 Suốt 12 tuần thực tập trong chương trình **First Cloud AI Journey (FCAJ)** (12/6 - 31/8/2026), em đã ghi lại hành trình học tập, phát triển kỹ năng và tiến độ xây dựng một dự án workshop AWS thực tế. Nhật ký này ghi lại sự cân bằng giữa học tập hướng dẫn tại văn phòng và tự học độc lập tại nhà.
