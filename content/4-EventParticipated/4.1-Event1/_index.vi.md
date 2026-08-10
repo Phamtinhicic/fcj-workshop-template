@@ -91,8 +91,6 @@ Sự kiện giúp em có thêm động lực tiếp tục học AWS, ôn lại k
 
 ## Bằng chứng tham gia
 
-Các ảnh trong bài là minh chứng trực tiếp cho quá trình em tham gia Cloud Architect Event tại tầng 26, tòa nhà Bitexco vào ngày 20/06/2026.
+![Ảnh chụp chung Cloud Architect Event](/images/4-EventParticipated/cloud-architect-event/group-photo.jpg "Ảnh chụp chung những người tham gia Cloud Architect Event")
 
-{{% notice note %}}
-Khi bổ sung bằng chứng, chỉ sử dụng ảnh hoặc đường dẫn được phép chia sẻ và không công khai thông tin cá nhân, mã truy cập hay dữ liệu nội bộ của đơn vị tổ chức.
-{{% /notice %}}
+*Ảnh chụp chung những người tham gia Cloud Architect Event tại tầng 26, tòa nhà Bitexco ngày 20/06/2026.*

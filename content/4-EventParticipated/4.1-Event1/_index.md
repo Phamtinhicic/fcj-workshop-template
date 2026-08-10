@@ -77,4 +77,6 @@ The event motivated me to continue studying AWS, consolidate Cloud Practitioner 
 
 ## Participation evidence
 
-The photographs included in this report directly document my participation in the Cloud Architect Event at Bitexco Tower on 20 June 2026.
+![Cloud Architect Event group photo](/images/4-EventParticipated/cloud-architect-event/group-photo.jpg "Group photograph of Cloud Architect Event participants")
+
+*Group photograph of the Cloud Architect Event participants on the 26th floor of Bitexco Tower, 20 June 2026.*
