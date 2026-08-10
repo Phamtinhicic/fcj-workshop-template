@@ -1,18 +1,19 @@
 ---
-title: "Các bài blogs đã đăng"
-date: 2024-01-01
+title: "Các bài viết đã đăng"
+date: 2026-08-10
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
 
-Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà các bạn đã đăng trên [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). Ví dụ:
+Trong quá trình tham gia First Cloud AI Journey, em đã đăng hai bài chia sẻ trong cộng đồng AWS Study Group. Các liên kết dưới đây dẫn trực tiếp đến bài viết gốc trên Facebook.
 
-###  [Blog 1 - SESSION POLICIES TRONG AMAZON EKS POD IDENTITY](3.1-Blog1/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+### [Bài viết 1 trên AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2237833836981576/)
 
-###  [Blog 2 - ...](3.2-Blog2/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Bài viết chia sẻ kiến thức và trải nghiệm học tập của em trong chương trình First Cloud AI Journey.
 
-###  [Blog 3 - ...](3.3-Blog3/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+### [Bài viết 2 trên AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2238689133562713/)
+
+Bài viết tiếp tục ghi lại nội dung em đã tìm hiểu và chia sẻ với cộng đồng AWS Study Group.
+
+> Do bài viết nằm trong Facebook Group, người xem có thể cần đăng nhập Facebook và tham gia nhóm AWS Study Group để mở nội dung.
