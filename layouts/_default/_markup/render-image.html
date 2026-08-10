@@ -5,4 +5,4 @@
 {{- if strings.HasPrefix $destination "static/" -}}
   {{- $destination = strings.TrimPrefix "static/" $destination -}}
 {{- end -}}
-<img src="{{ $destination | relURL | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">
+<img src="{{ $destination | relURL | safeURL }}" alt="{{ .Text }}"{{ if strings.HasSuffix $destination "avatar.png" }} class="profile-avatar"{{ end }}{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">

@@ -1,0 +1,17 @@
+#prefooter .select-style select {
+  color: #f2f4f7 !important;
+  background-color: #1c222a !important;
+}
+
+#prefooter .select-style select option {
+  color: #111827 !important;
+  background-color: #ffffff !important;
+}
+
+#body-inner .profile-avatar {
+  display: block;
+  width: min(100%, 280px);
+  height: auto;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+}
