@@ -10,8 +10,8 @@
 
 #body-inner .profile-avatar {
   display: block;
-  width: min(100%, 280px);
+  width: min(100%, 340px);
   height: auto;
-  margin: 1.5rem 0;
+  margin: 1.5rem auto;
   border-radius: 8px;
 }

@@ -1,4 +1,5 @@
 ---
+draft: true
 title : "Prepare the environment"
 date : 2024-01-01
 weight : 1

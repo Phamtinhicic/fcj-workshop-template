@@ -1,4 +1,5 @@
 ---
+draft: true
 title : "Chuẩn bị tài nguyên"
 date : 2024-01-01
 weight : 1

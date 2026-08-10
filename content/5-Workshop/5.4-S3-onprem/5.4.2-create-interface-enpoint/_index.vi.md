@@ -1,4 +1,5 @@
 ---
+draft: true
 title : "Tạo một S3 Interface endpoint"
 date : 2024-01-01
 weight : 2

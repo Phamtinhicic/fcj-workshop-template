@@ -1,4 +1,5 @@
 ---
+draft: true
 title : "Truy cập S3 từ môi trường truyền thống"
 date : 2024-01-01 
 weight : 4 

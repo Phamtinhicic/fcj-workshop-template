@@ -1,4 +1,5 @@
 ---
+draft: true
 title : "Kiểm tra Interface Endpoint"
 date : 2024-01-01
 weight : 3

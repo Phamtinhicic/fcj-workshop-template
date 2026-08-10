@@ -1,33 +1,36 @@
 ---
-title: "Workshop"
-date: 2024-01-01
+title: "Workshop CampusMeet"
+date: 2026-08-01
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 ---
 
+# Xây dựng và triển khai CampusMeet trên AWS
+
+Workshop này hướng dẫn dựng CampusMeet từ source code đến môi trường AWS dev hoàn chỉnh. Người học sẽ triển khai data foundation, user-content/AI orchestration, application stack, frontend CloudFront và tích hợp Google Calendar/Meet; sau đó chạy smoke test và quan sát hệ thống.
+
+![Kiến trúc AWS của CampusMeet](/images/5-Workshop/campusmeet-aws-architecture.png)
+
+## Kết quả đạt được
+
+- React SPA được phân phối bằng CloudFront từ S3 private.
+- Cognito xác thực người dùng; HTTP API gọi Lambda Node.js 22.
+- Năm bảng DynamoDB lưu dữ liệu nghiệp vụ.
+- S3 user-content, Step Functions, Reminder Lambda, Scheduler và SES được cấu hình.
+- Google OAuth/Calendar/Meet hoạt động với redirect URI chính xác.
+- AI Worker, Bedrock Knowledge Base và S3 Vectors sẵn sàng cho tài liệu đã duyệt.
+- CloudWatch Logs/Alarms và SNS hỗ trợ vận hành.
+
+## Nội dung
+
+1. [Tổng quan kiến trúc](5.1-overview/)
+2. [Chuẩn bị tài khoản và công cụ](5.2-prerequisites/)
+3. [Triển khai nền tảng dữ liệu](5.3-data-foundation/)
+4. [Triển khai M4 và application stack](5.4-backend-infrastructure/)
+5. [Triển khai frontend và Google Workspace](5.5-frontend-google/)
+6. [Smoke test, giám sát và dọn dẹp](5.6-validation-cleanup/)
+
 {{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
+Không đưa access key, OAuth client secret, token, API key Bedrock hoặc nội dung `.env` vào Git. Luôn kiểm tra AWS Account ID, Region và CloudFormation change set trước khi xác nhận deploy.
 {{% /notice %}}
-
-
-# Đảm bảo truy cập Hybrid an toàn đến S3 bằng cách sử dụng VPC endpoint
-
-#### Tổng quan
-
-**AWS PrivateLink** cung cấp kết nối riêng tư đến các dịch vụ aws từ VPCs hoặc trung tâm dữ liệu (on-premise) mà không làm lộ lưu lượng truy cập ra ngoài public internet.
-
-Trong bài lab này, chúng ta sẽ học cách tạo, cấu hình, và kiểm tra VPC endpoints để cho phép workload của bạn tiếp cận các dịch vụ AWS mà không cần đi qua Internet công cộng.
-
-Chúng ta sẽ tạo hai loại endpoints để truy cập đến Amazon S3: gateway vpc endpoint và interface vpc endpoint. Hai loại vpc endpoints này mang đến nhiều lợi ích tùy thuộc vào việc bạn truy cập đến S3 từ môi trường cloud hay từ trung tâm dữ liệu (on-premise).
-+ **Gateway** - Tạo gateway endpoint để gửi lưu lượng đến Amazon S3 hoặc DynamoDB using private IP addresses. Bạn điều hướng lưu lượng từ VPC của bạn đến gateway endpoint bằng các bảng định tuyến (route tables)
-+ **Interface** - Tạo interface endpoint để gửi lưu lượng đến các dịch vụ điểm cuối (endpoints) sử dụng Network Load Balancer để phân phối lưu lượng. Lưu lượng dành cho dịch vụ điểm cuối được resolved bằng DNS.
-
-#### Nội dung
-
-1. [Tổng quan về workshop](5.1-Workshop-overview/)
-2. [Chuẩn bị](5.2-Prerequiste/)
-3. [Truy cập đến S3 từ VPC](5.3-S3-vpc/)
-4. [Truy cập đến S3 từ TTDL On-premises](5.4-S3-onprem/)
-5. [VPC Endpoint Policies (làm thêm)](5.5-Policy/)
-6. [Dọn dẹp tài nguyên](5.6-Cleanup/)
