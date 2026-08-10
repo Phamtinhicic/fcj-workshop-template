@@ -12,7 +12,7 @@ pre: " <b> 1. </b> "
 
 ## Nhật ký Thực tập
 
-Suốt 12 tuần thực tập trong chương trình **First Cloud AI Journey (FCAJ)** (12/6 - 31/8/2026), tôi đã ghi lại hành trình học tập, phát triển kỹ năng và tiến độ xây dựng một dự án workshop AWS thực tế. Nhật ký này ghi lại sự cân bằng giữa học tập hướng dẫn tại văn phòng và tự học độc lập tại nhà.
+Suốt 12 tuần thực tập trong chương trình **First Cloud AI Journey (FCAJ)** (12/6 - 31/8/2026), em đã ghi lại hành trình học tập, phát triển kỹ năng và tiến độ xây dựng một dự án workshop AWS thực tế. Nhật ký này ghi lại sự cân bằng giữa học tập hướng dẫn tại văn phòng và tự học độc lập tại nhà.
 
 ### Phân chia theo tuần:
 

@@ -10,9 +10,9 @@ pre: " <b> 6. </b> "
 
 ## 1. Tổng quan
 
-Trong thời gian thực tập từ **22/06/2026 đến 15/08/2026** tại chương trình **Workforce Bootcamp – First Cloud AI Journey**, tôi đã từng bước chuyển từ việc tìm hiểu các dịch vụ AWS cơ bản sang tham gia xây dựng và triển khai một sản phẩm theo quy trình làm việc nhóm. Dự án chính mà nhóm thực hiện là **CampusMeet** – nền tảng hỗ trợ quản lý nhóm, lập lịch cuộc họp, tích hợp Google Calendar/Google Meet, quản lý tài liệu, biên bản, công việc sau cuộc họp và xử lý nội dung bằng AI.
+Trong thời gian thực tập từ **22/06/2026 đến 15/08/2026** tại chương trình **Workforce Bootcamp – First Cloud AI Journey**, em đã từng bước chuyển từ việc tìm hiểu các dịch vụ AWS cơ bản sang tham gia xây dựng và triển khai một sản phẩm theo quy trình làm việc nhóm. Dự án chính mà nhóm thực hiện là **CampusMeet** – nền tảng hỗ trợ quản lý nhóm, lập lịch cuộc họp, tích hợp Google Calendar/Google Meet, quản lý tài liệu, biên bản, công việc sau cuộc họp và xử lý nội dung bằng AI.
 
-Quá trình thực tập giúp tôi hiểu rằng việc hoàn thành một hệ thống không chỉ là viết được mã nguồn. Một sản phẩm có thể vận hành cần kiến trúc phù hợp, hợp đồng API rõ ràng, phân quyền an toàn, hạ tầng có thể tái triển khai, quy trình kiểm thử, tài liệu hướng dẫn và sự phối hợp liên tục giữa các thành viên.
+Quá trình thực tập giúp em hiểu rằng việc hoàn thành một hệ thống không chỉ là viết được mã nguồn. Một sản phẩm có thể vận hành cần kiến trúc phù hợp, hợp đồng API rõ ràng, phân quyền an toàn, hạ tầng có thể tái triển khai, quy trình kiểm thử, tài liệu hướng dẫn và sự phối hợp liên tục giữa các thành viên.
 
 ## 2. Kiến thức và kỹ năng đạt được
 
@@ -44,19 +44,19 @@ Quá trình thực tập giúp tôi hiểu rằng việc hoàn thành một hệ
 
 ### Khó khăn về quyền AWS
 
-Trong lần triển khai đầu, CloudFormation không thể tạo IAM Role do tài khoản thực thi thiếu quyền `iam:CreateRole` và quyền tagging. Tôi đã đọc sự kiện stack, xác định đúng resource thất bại, chuyển sang tài khoản/role quản trị được nhóm cho phép và triển khai lại. Qua đó, tôi rút kinh nghiệm phải kiểm tra danh tính AWS, Region và quyền cần thiết trước khi chạy deployment.
+Trong lần triển khai đầu, CloudFormation không thể tạo IAM Role do tài khoản thực thi thiếu quyền `iam:CreateRole` và quyền tagging. Em đã đọc sự kiện stack, xác định đúng resource thất bại, chuyển sang tài khoản/role quản trị được nhóm cho phép và triển khai lại. Qua đó, em rút kinh nghiệm phải kiểm tra danh tính AWS, Region và quyền cần thiết trước khi chạy deployment.
 
 ### Khó khăn về cấu hình môi trường
 
-Frontend từng không gọi được API do CORS, API URL và CloudFront origin chưa đồng bộ. Google OAuth cũng gặp lỗi do redirect URI khác với URI thực tế của Lambda. Tôi đã đối chiếu CloudFormation outputs, biến môi trường Lambda, cấu hình API Gateway CORS và Google OAuth Client; sau đó build, upload lại frontend và tạo CloudFront invalidation.
+Frontend từng không gọi được API do CORS, API URL và CloudFront origin chưa đồng bộ. Google OAuth cũng gặp lỗi do redirect URI khác với URI thực tế của Lambda. Em đã đối chiếu CloudFormation outputs, biến môi trường Lambda, cấu hình API Gateway CORS và Google OAuth Client; sau đó build, upload lại frontend và tạo CloudFront invalidation.
 
 ### Khó khăn khi tích hợp mã nguồn nhóm
 
-Một số pull request phát sinh conflict vì các thành viên cùng chỉnh sửa service, adapter, kiểu dữ liệu và template hạ tầng. Tôi học cách cập nhật nhánh từ `main`, so sánh ý nghĩa của hai phía, giữ lại hợp đồng mới cần thiết và chạy lại kiểm thử thay vì chọn toàn bộ một phía. Điều này giúp hạn chế làm mất chức năng của thành viên khác.
+Một số pull request phát sinh conflict vì các thành viên cùng chỉnh sửa service, adapter, kiểu dữ liệu và template hạ tầng. Em học cách cập nhật nhánh từ `main`, so sánh ý nghĩa của hai phía, giữ lại hợp đồng mới cần thiết và chạy lại kiểm thử thay vì chọn toàn bộ một phía. Điều này giúp hạn chế làm mất chức năng của thành viên khác.
 
 ### Khó khăn trong triển khai hạ tầng
 
-Việc triển khai theo từng phần thủ công dễ tạo tài nguyên trùng hoặc cấu hình không đồng nhất. Nhóm đã chuyển các tài nguyên quan trọng vào SAM/CloudFormation, chuẩn hóa output và dependency giữa các stack. Tôi nhận thấy Infrastructure as Code là yếu tố cần thiết để hệ thống có thể được tái triển khai và bàn giao.
+Việc triển khai theo từng phần thủ công dễ tạo tài nguyên trùng hoặc cấu hình không đồng nhất. Nhóm đã chuyển các tài nguyên quan trọng vào SAM/CloudFormation, chuẩn hóa output và dependency giữa các stack. Em nhận thấy Infrastructure as Code là yếu tố cần thiết để hệ thống có thể được tái triển khai và bàn giao.
 
 ## 4. Bảng tự đánh giá
 
@@ -93,4 +93,4 @@ Việc triển khai theo từng phần thủ công dễ tạo tài nguyên trùn
 
 ## 7. Kết luận
 
-Tôi tự đánh giá đã hoàn thành tốt các mục tiêu chính của kỳ thực tập: xây dựng nền tảng kiến thức AWS, làm quen với quy trình kỹ thuật trong môi trường nhóm và tham gia đưa CampusMeet từ ý tưởng đến một hệ thống có thể triển khai, kiểm thử và trình diễn. Giá trị lớn nhất tôi đạt được là khả năng nhìn một chức năng trong toàn bộ vòng đời của sản phẩm — từ yêu cầu, mã nguồn, hạ tầng, bảo mật, tích hợp đến vận hành. Những hạn chế còn lại là cơ sở để tôi tiếp tục cải thiện theo hướng trở thành một kỹ sư có tư duy hệ thống và làm việc chuyên nghiệp hơn.
+Em tự đánh giá đã hoàn thành tốt các mục tiêu chính của kỳ thực tập: xây dựng nền tảng kiến thức AWS, làm quen với quy trình kỹ thuật trong môi trường nhóm và tham gia đưa CampusMeet từ ý tưởng đến một hệ thống có thể triển khai, kiểm thử và trình diễn. Giá trị lớn nhất em đạt được là khả năng nhìn một chức năng trong toàn bộ vòng đời của sản phẩm — từ yêu cầu, mã nguồn, hạ tầng, bảo mật, tích hợp đến vận hành. Những hạn chế còn lại là cơ sở để em tiếp tục cải thiện theo hướng trở thành một kỹ sư có tư duy hệ thống và làm việc chuyên nghiệp hơn.

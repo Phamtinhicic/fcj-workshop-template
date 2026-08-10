@@ -94,7 +94,7 @@ Bạn đã tạo thành công resolver forwarding rule.
 dig +short s3.us-east-1.amazonaws.com 
 ```
 {{% notice note %}}
-Các địa chỉ IP được trả về là các địa chỉ IP VPC enpoint, KHÔNG phải là các địa chỉ IP Resolver mà bạn đã dán từ trình chỉnh sửa văn bản của mình. Các địa chỉ IP của  Resolver endpoint  và  VPC endpoin trông giống nhau vì chúng đều từ khối CIDR VPC Cloud.
+Các địa chỉ IP được trả về là các địa chỉ IP VPC enpoint, KHÔNG phải là các địa chỉ IP Resolver mà bạn đã dán từ trình chỉnh sửa văn bản của em. Các địa chỉ IP của  Resolver endpoint  và  VPC endpoin trông giống nhau vì chúng đều từ khối CIDR VPC Cloud.
 {{% /notice %}}
 
 ![create rule](/images/5-Workshop/5.4-S3-onprem/dig.png)

@@ -64,17 +64,17 @@ Bạn đã bắt đầu phiên kết nối đến EC2 trong VPC Cloud thành cô
 
 ![Create file](/images/5-Workshop/5.3-S3-vpc/cli-file.png)
 
-3. Tải file mình vừa tạo lên S3 với lệnh "aws s3 cp testfile.xyz s3://your-bucket-name". Thay your-bucket-name bằng tên S3 bạn đã tạo.
+3. Tải file em vừa tạo lên S3 với lệnh "aws s3 cp testfile.xyz s3://your-bucket-name". Thay your-bucket-name bằng tên S3 bạn đã tạo.
 
 ![Uploaded](/images/5-Workshop/5.3-S3-vpc/uploaded.png)
 
-Bạn đã tải thành công tệp lên bộ chứa S3 của mình. Bây giờ bạn có thể kết thúc session.
+Bạn đã tải thành công tệp lên bộ chứa S3 của em. Bây giờ bạn có thể kết thúc session.
 
 #### Kiểm tra object trong S3 bucket
 
 1. Đi đến S3 console.  
 2. Click tên s3 bucket của bạn
-3. Trong Bucket console, bạn sẽ thấy tệp bạn đã tải lên S3 bucket của mình
+3. Trong Bucket console, bạn sẽ thấy tệp bạn đã tải lên S3 bucket của em
 
 ![Check S3](/images/5-Workshop/5.3-S3-vpc/check-s3-bucket.png)
 

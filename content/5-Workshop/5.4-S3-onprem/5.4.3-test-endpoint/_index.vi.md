@@ -31,7 +31,7 @@ fallocate -l 1G testfile2.xyz
 
 ![user](/images/5-Workshop/5.4-S3-onprem/cli1.png)
 
-5. Copy file vào S3 bucket mình tạo ở section 4.2
+5. Copy file vào S3 bucket em tạo ở section 4.2
 ```
 aws s3 cp --endpoint-url https://bucket.<Regional-DNS-Name> testfile2.xyz s3://<your-bucket-name>
 ``` 
