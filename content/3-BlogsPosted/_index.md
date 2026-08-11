@@ -1,19 +1,19 @@
 ---
-title: "Blogs Posted"
+title: "Published Posts"
 date: 2026-08-10
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
 
-During the First Cloud AI Journey program, I published two posts in the AWS Study Group community. The links below lead directly to the original Facebook posts.
+During the First Cloud AI Journey, I published two technical posts in the AWS Study Group community. They summarize what I researched, practiced, and applied to CampusMeet.
 
-### [Post 1 on AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2237833836981576/)
+### [3.1. CampusMeet with AWS Serverless and Generative AI](3.1-blog1/)
 
-This post shares knowledge and learning experiences from my participation in the First Cloud AI Journey program.
+I introduce CampusMeet's problem statement, architecture, data workflow, and key design principles.
 
-### [Post 2 on AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2238689133562713/)
+### [3.2. AWS Lambda MicroVMs for isolated execution](3.2-blog2/)
 
-This post continues to document what I learned and shared with the AWS Study Group community.
+I explain how Lambda MicroVMs extend serverless computing for AI coding agents, online IDEs, code runners, and sandboxed workloads.
 
-> Because these posts are hosted in a Facebook Group, readers may need to sign in to Facebook and join AWS Study Group to view them.
+> The original posts are hosted in the AWS Study Group Facebook group. Viewers may need to sign in and join the group.

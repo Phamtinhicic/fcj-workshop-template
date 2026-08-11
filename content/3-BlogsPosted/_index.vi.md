@@ -6,14 +6,14 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-Trong quá trình tham gia First Cloud AI Journey, em đã đăng hai bài chia sẻ trong cộng đồng AWS Study Group. Các liên kết dưới đây dẫn trực tiếp đến bài viết gốc trên Facebook.
+Trong quá trình tham gia First Cloud AI Journey, em đã viết và chia sẻ hai bài kỹ thuật trong cộng đồng AWS Study Group. Hai bài viết ghi lại kết quả em nghiên cứu, thực hành và liên hệ với dự án CampusMeet.
 
-### [Bài viết 1 trên AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2237833836981576/)
+### [3.1. CampusMeet với AWS Serverless và Generative AI](3.1-blog1/)
 
-Bài viết chia sẻ kiến thức và trải nghiệm học tập của em trong chương trình First Cloud AI Journey.
+Em giới thiệu bài toán, kiến trúc, luồng xử lý dữ liệu và những nguyên tắc thiết kế quan trọng của CampusMeet.
 
-### [Bài viết 2 trên AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2238689133562713/)
+### [3.2. AWS Lambda MicroVMs cho môi trường thực thi cách ly](3.2-blog2/)
 
-Bài viết tiếp tục ghi lại nội dung em đã tìm hiểu và chia sẻ với cộng đồng AWS Study Group.
+Em tổng hợp cách Lambda MicroVMs mở rộng mô hình serverless cho AI Coding Agent, Online IDE, Code Runner và các workload cần sandbox.
 
-> Do bài viết nằm trong Facebook Group, người xem có thể cần đăng nhập Facebook và tham gia nhóm AWS Study Group để mở nội dung.
+> Bản đăng gốc nằm trong Facebook Group AWS Study Group. Người xem có thể cần đăng nhập Facebook và tham gia nhóm để mở bài viết.

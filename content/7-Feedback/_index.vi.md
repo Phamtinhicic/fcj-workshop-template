@@ -1,40 +1,44 @@
 ---
 title: "Chia sẻ, đóng góp ý kiến"
-date: 2024-01-01
+date: 2026-08-10
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud AI Journey, giúp team FCAJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
 
-### Đánh giá chung
+# Chia sẻ và đóng góp ý kiến
 
-**1. Môi trường làm việc**  
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCAJ luôn sẵn sàng hỗ trợ khi em gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp em tập trung tốt hơn. Tuy nhiên, em nghĩ có thể bổ sung thêm một số buổi giao lưu hoặc team bonding để mọi người hiểu nhau hơn.
+## Điều em hài lòng
 
-**2. Sự hỗ trợ của mentor / team admin**  
-Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi em chưa hiểu và luôn khuyến khích em đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để em làm việc thuận lợi. Em đánh giá cao việc mentor cho phép em thử và tự xử lý vấn đề thay vì chỉ đưa đáp án.
+First Cloud AI Journey tạo cho em một lộ trình từ kiến thức AWS nền tảng đến quá trình xây dựng sản phẩm theo nhóm. Em được thực hành IAM, VPC, EC2, S3, RDS, CloudWatch, AWS CLI, kiến trúc serverless và Generative AI thay vì chỉ đọc lý thuyết.
 
-**3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Công việc em được giao phù hợp với kiến thức em đã học ở trường, đồng thời mở rộng thêm những mảng mới mà em chưa từng được tiếp cận. Nhờ vậy, em vừa củng cố kiến thức nền tảng, vừa học thêm kỹ năng thực tế.
+Các buổi làm việc tại văn phòng và sự kiện giúp em làm quen với môi trường chuyên nghiệp, trao đổi trực tiếp với mentor và các thành viên khác. Em đánh giá cao tinh thần cởi mở: em có thể đặt câu hỏi, tự thử giải pháp, nhận góp ý và sửa lại khi kết quả chưa đúng.
 
-**4. Cơ hội học hỏi & phát triển kỹ năng**  
-Trong quá trình thực tập, em học được nhiều kỹ năng mới như sử dụng công cụ quản lý dự án, kỹ năng làm việc nhóm, và cả cách giao tiếp chuyên nghiệp trong môi trường công ty. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế giúp em định hướng tốt hơn cho sự nghiệp.
+## Kỹ năng em phát triển
 
-**5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Khi có dự án gấp, mọi người cùng nhau cố gắng, hỗ trợ không phân biệt vị trí. Điều này giúp em cảm thấy em là một phần của tập thể, dù chỉ là thực tập sinh.
+- Phân tích yêu cầu và chuyển một ý tưởng thành phạm vi MVP;
+- thiết kế kiến trúc AWS theo hướng managed/serverless và cân nhắc chi phí;
+- làm việc với IAM, CloudFormation/AWS SAM, API Gateway, Lambda, DynamoDB, S3, Step Functions, CloudWatch, Cognito và Amazon Bedrock;
+- phối hợp nhóm qua Git, commit nhỏ, pull request, review và xử lý conflict;
+- kiểm tra log, phân tích lỗi CORS, OAuth, quyền IAM và dependency giữa các module;
+- trình bày kiến trúc, viết tài liệu kỹ thuật và chia sẻ kiến thức với cộng đồng.
 
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
+## Khó khăn và cách em xử lý
 
+Khó khăn lớn nhất của em là các module trong CampusMeet phụ thuộc lẫn nhau. Một thay đổi ở Data Foundation, Auth hoặc State Machine có thể ảnh hưởng đến API và frontend. Nhóm em giải quyết bằng cách thống nhất API contract, output của hạ tầng, thứ tự triển khai và chia thay đổi thành pull request nhỏ.
 
-### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
+Trong quá trình deploy, em cũng gặp lỗi quyền IAM, OAuth redirect URI, CORS, CloudFront cache, merge conflict và giới hạn dung lượng CloudShell. Em học cách đọc thông báo lỗi, kiểm tra CloudFormation events và CloudWatch logs, xác minh từng biến môi trường, xây dựng lại artifact, tạo invalidation và trao đổi với thành viên phụ trách module liên quan.
 
+## Đề xuất của em
 
-### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+- Có checklist onboarding chung cho AWS account, IAM, budget và công cụ ngay từ đầu;
+- công bố dependency map và thứ tự deploy giữa các module trước giai đoạn tích hợp;
+- duy trì buổi sync hoặc architecture review ngắn hằng tuần;
+- có một hướng dẫn deploy, rollback, cleanup và kiểm soát chi phí dùng chung;
+- bổ sung thêm phiên demo, code review, mock interview và chia sẻ kinh nghiệm từ các anh chị đi trước.
+
+## Định hướng tiếp theo
+
+Em muốn tiếp tục hoàn thiện CampusMeet về CI/CD, bảo mật, observability và RAG; đồng thời củng cố kiến thức để theo đuổi hướng Cloud/Backend Engineering. Em sẵn sàng giới thiệu chương trình cho các bạn muốn học AWS qua một lộ trình có thực hành và làm việc nhóm thực tế.
+
+Em cảm ơn ban tổ chức, mentor và các thành viên đã hỗ trợ em trong quá trình tham gia First Cloud AI Journey.

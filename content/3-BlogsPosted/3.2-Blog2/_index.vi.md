@@ -1,29 +1,50 @@
 ---
-title: "Blog 2"
-date: 2024-01-01
-
-draft: true
-weight: 1
+title: "AWS Lambda MicroVMs cho môi trường thực thi cách ly"
+date: 2026-08-10
+weight: 2
 chapter: false
 pre: " <b> 3.2. </b> "
 ---
-# SESSION POLICIES TRONG AMAZON EKS POD IDENTITY
 
-Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+# AWS Lambda MicroVMs – “sandbox” serverless cho code do người dùng hoặc AI sinh ra
 
-Các điểm chính cần nắm:
+Khi xây dựng AI Coding Agent, Online IDE hoặc Code Runner, một câu hỏi quan trọng là: làm sao chạy code do người dùng hoặc AI tạo ra một cách an toàn, cách ly tốt mà developer không phải tự quản lý cả hệ thống VM hoặc container?
 
-* Session policy là một IAM policy inline được chỉ định khi tạo hoặc cập nhật Pod Identity association.
-* Quyền hiệu quả = intersection (giao) giữa permissions của IAM role và session policy → session policy chỉ có thể thu hẹp, không thể mở rộng quyền.
-* Giúp tránh tình trạng over-permissioning khi reuse chung một IAM role cho nhiều workloads có nhu cầu khác nhau.
-* Hỗ trợ cả same-account và cross-account (qua IAM role chaining).
-* Giảm đáng kể số lượng IAM roles cần quản lý, tránh chạm giới hạn quota IAM trong cluster lớn.
-* Cấu hình dễ dàng qua AWS Management Console, AWS CLI hoặc AWS SDK khi tạo association giữa Kubernetes ServiceAccount và IAM role.
+AWS Lambda MicroVMs hướng đến nhóm bài toán này. Khác với Lambda Function truyền thống thường xử lý theo luồng `Request → Lambda → Execute → Response`, MicroVM hướng đến môi trường thực thi riêng theo session hoặc job, có thể giữ filesystem và trạng thái trong quá trình làm việc.
 
-Tính năng này đặc biệt hữu ích khi bạn có nhiều ứng dụng chạy trên cùng một IAM role nhưng cần giới hạn quyền khác nhau (ví dụ: một pod chỉ đọc S3 bucket cụ thể, pod khác chỉ gọi một số API nhất định).
+## Ví dụ với AI Coding Agent
 
-...Hình ảnh...
+`Generate code → Install dependencies → Build → Run tests → Read errors → Fix code → Test again`
 
-...Link...
+Thay vì chạy tất cả trên máy developer hoặc tự xây sandbox bằng EC2/container, chuỗi thao tác có thể chạy trong một MicroVM được cách ly:
 
-...Hướng dẫn...
+`User / AI Agent → Application / API → Lambda MicroVM → Result / Output`
+
+Bên trong môi trường có thể gồm source code, dependencies, filesystem, runtime/terminal và session state.
+
+## Nền tảng cách ly
+
+Điểm đáng chú ý là Lambda MicroVMs dựa trên **Firecracker**, công nghệ microVM được AWS sử dụng phía sau Lambda và Fargate. MicroVM cung cấp ranh giới cách ly mạnh hơn tiến trình thông thường trong khi khởi tạo nhẹ hơn máy ảo truyền thống.
+
+## Use case phù hợp
+
+- AI Coding Agent;
+- Online IDE hoặc Coding Playground;
+- Chạy code do người dùng submit;
+- CI/CD Runner;
+- Vulnerability và Security Scanning;
+- Data Analysis Sandbox.
+
+## Cách em nhìn về sự mở rộng của serverless
+
+**Lambda Function → Serverless Function Execution**
+
+**Lambda MicroVM → Serverless Isolated Execution Environment**
+
+Trước đây câu hỏi phổ biến là “làm sao chạy backend mà không quản lý server?”. Với AI Agent, câu hỏi đang chuyển thành “làm sao chạy code do người dùng hoặc AI tạo ra an toàn mà vẫn không tự quản lý hạ tầng sandbox?”.
+
+Khi agent có thể tự tạo file, cài dependency, chạy terminal, build và test, em cho rằng môi trường thực thi cách ly sẽ là một mảnh ghép quan trọng. Tuy vậy, hệ thống thực tế vẫn phải kiểm soát quyền, mạng, tài nguyên, thời gian chạy, dữ liệu đầu vào và log kiểm toán; sandbox không thay thế toàn bộ thiết kế bảo mật.
+
+**Bài đăng gốc:** [AWS Study Group – Lambda MicroVMs](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2238689133562713/)
+
+`#AWS` `#AWSLambda` `#LambdaMicroVMs` `#Serverless` `#Firecracker` `#CloudComputing` `#AI` `#CodingAgent` `#DeveloperTools`

@@ -1,43 +1,44 @@
 ---
-title: "Sharing and Feedback"
-date: 2024-01-01
+title: "Feedback and Suggestions"
+date: 2026-08-10
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud AI Journey program. This will help the FCAJ team improve any shortcomings based on the following aspects:
+# Feedback and Suggestions
 
-### Overall Evaluation
+## What I valued
 
-**1. Working Environment**  
-The working environment is very friendly and open. FCAJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+First Cloud AI Journey gave me a structured path from AWS fundamentals to team-based product development. I practiced IAM, VPC, EC2, S3, RDS, CloudWatch, AWS CLI, serverless architecture, and generative AI instead of learning only through theory.
 
-**2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+Office sessions and events helped me become comfortable in a professional environment, communicate directly with mentors, and collaborate with other participants. I especially valued the open learning culture: I could ask questions, test an approach, receive feedback, and improve an incomplete result.
 
-**3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+## Skills I developed
 
-**4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+- Turning a problem statement into an MVP scope;
+- designing cost-aware managed serverless architectures;
+- working with IAM, AWS SAM/CloudFormation, API Gateway, Lambda, DynamoDB, S3, Step Functions, CloudWatch, Cognito, and Amazon Bedrock;
+- collaborating through Git, small commits, pull requests, reviews, and conflict resolution;
+- diagnosing CORS, OAuth, IAM, deployment, and cross-module dependency issues;
+- presenting architecture and writing technical documentation and community posts.
 
-**5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+## Challenges and responses
 
-**6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+The most significant challenge was integration across dependent CampusMeet modules. Changes in the data foundation, authentication, or state machine could affect both API and frontend behavior. Our team responded by agreeing on API contracts, infrastructure outputs, deployment order, and smaller pull requests.
 
----
+During deployment, I encountered IAM permission errors, OAuth redirect mismatches, CORS configuration, CloudFront caching, merge conflicts, and CloudShell storage limits. I learned to read CloudFormation events and CloudWatch logs, verify environment variables one by one, rebuild artifacts, invalidate caches, and coordinate with the owner of each dependent module.
 
-### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+## My suggestions
 
----
+- Provide a shared onboarding checklist for AWS accounts, IAM, budgets, and tools;
+- publish a dependency map and deployment order before integration begins;
+- maintain a short weekly synchronization or architecture-review session;
+- provide a shared deployment, rollback, cleanup, and cost-control guide;
+- add more demos, code reviews, mock interviews, and practitioner sharing sessions.
 
-### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+## Next direction
+
+I would like to continue improving CampusMeet's CI/CD, security, observability, and RAG capabilities while pursuing Cloud and Backend Engineering. I would recommend the program to students who want a practical AWS learning path with real teamwork.
+
+I sincerely thank the organizers, mentors, and participants who supported me throughout the First Cloud AI Journey.
